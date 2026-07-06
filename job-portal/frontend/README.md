@@ -1,36 +1,183 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 HireHeaven – AI-Powered Distributed Recruitment Platform
 
-## Getting Started
+HireHeaven is a production-style AI-powered recruitment platform designed to streamline the hiring process for recruiters and job seekers. The platform provides secure authentication, AI-powered resume analysis, job management, real-time notifications, and a scalable microservices-based architecture.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🔐 Secure JWT Authentication & Role-Based Authorization
+- 👨‍💼 Recruiter Dashboard for Job Posting & Candidate Management
+- 👨‍🎓 Job Seeker Portal for Profile Creation & Job Applications
+- 🤖 AI-Powered Resume Analysis using Gemini AI
+- 📄 Resume Upload & Smart Career Recommendations
+- 📨 Real-Time Notifications
+- ⚡ Scalable REST APIs
+- 🏗️ Microservices-Based Architecture
+- 💳 Razorpay Payment Integration
+- ☁️ Cloudinary Integration for File Storage
+- 🚀 High-performance Backend with Redis Caching
+- 📩 Kafka-based Asynchronous Communication
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+
+### Database
+- PostgreSQL
+- Redis
+
+### AI & Cloud
+- Gemini AI
+- Cloudinary
+
+### Messaging & Microservices
+- Apache Kafka
+- Docker
+
+### Payments
+- Razorpay
+
+---
+
+## 📌 Modules
+
+### 👨‍💼 Recruiter
+- Register/Login
+- Create & Manage Job Posts
+- View Applicants
+- AI Resume Analysis
+- Candidate Shortlisting
+
+### 👨‍🎓 Candidate
+- Secure Authentication
+- Build Professional Profile
+- Apply for Jobs
+- Upload Resume
+- Receive AI-based Career Recommendations
+
+---
+
+## 🏗️ System Architecture
+
+- Microservices Architecture
+- JWT Authentication
+- RESTful APIs
+- Redis Caching
+- Kafka Event Streaming
+- Dockerized Services
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots of your application here.
+
+Example:
+
+- Home Page
+- Login Page
+- Recruiter Dashboard
+- Candidate Dashboard
+- AI Resume Analysis
+- Job Listings
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/HireHeaven.git
+```
+
+### Navigate to the Project
+
+```bash
+cd HireHeaven
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env` file and add:
+
+```env
+DATABASE_URL=
+JWT_SECRET=
+GEMINI_API_KEY=
+REDIS_URL=
+CLOUDINARY_URL=
+RAZORPAY_KEY_ID=
+RAZORPAY_SECRET=
+```
+
+### Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Future Enhancements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Interview Scheduling
+- AI Interview Assistant
+- Video Interview Integration
+- Email Notifications
+- Advanced Candidate Analytics
+- Resume Ranking using AI
+- Company Dashboard
+- Admin Analytics
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learning Outcomes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project helped me gain hands-on experience with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Full Stack Web Development
+- Microservices Architecture
+- REST API Design
+- JWT Authentication
+- PostgreSQL
+- Redis
+- Apache Kafka
+- Docker
+- Gemini AI Integration
+- Cloudinary
+- Razorpay
+- Scalable Software Development
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Riya Agarwal**
+
+GitHub: https://github.com/your-username
+
+LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+## ⭐ If you found this project useful, don't forget to star the repository!
