@@ -174,9 +174,9 @@ This project helped me gain hands-on experience with:
 
 **Riya Agarwal**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Riya034
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://linkedin.com/in/riya-agarwal-45a2b6334/
 
 ---
 
